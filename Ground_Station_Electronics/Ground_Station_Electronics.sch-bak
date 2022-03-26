@@ -515,8 +515,4 @@ Text Label 3000 3050 0    50   ~ 0
 SCK
 Text Label 1900 2850 2    50   ~ 0
 COMMS_CS
-Text Label 1900 2750 2    50   ~ 0
-COMMS_G0
-Text Label 1900 2650 2    50   ~ 0
-COMMS_RST
 $EndSCHEMATC

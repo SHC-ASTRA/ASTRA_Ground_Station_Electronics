@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ArmElectronics_Library)(type Legacy)(uri C:/Users/aiden/Documents/GitHub/Arm-Electronics/ArmElectronics/ArmElectronics_Library.lib)(options "")(descr ""))
+  (lib (name MainElectronicsLib)(type Legacy)(uri C:/Users/aiden/Documents/GitHub/Prototype-Rover-Electronics/MainElectronics/Library/MainElectronicsLib.lib)(options "")(descr ""))
+  (lib (name ASTRA_Library)(type Legacy)(uri C:/Users/aiden/Documents/GitHub/RoverElectronics/ASTRA_Library.lib)(options "")(descr ""))
+)
