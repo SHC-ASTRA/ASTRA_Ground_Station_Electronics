@@ -1,3 +1,5 @@
 (sym_lib_table
   (lib (name "GS_Library")(type "KiCad")(uri "${KIPRJMOD}/GS_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "ASTRA_Library")(type "KiCad")(uri "${KIPRJMOD}/ASTRA_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "MainElectronicsLib")(type "KiCad")(uri "${KIPRJMOD}/MainElectronicsLib.kicad_sym")(options "")(descr ""))
 )
