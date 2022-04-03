@@ -2722,7 +2722,7 @@
   (symbol (lib_id "Device:D_Zener") (at 31.75 138.43 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 089dbcda-11ac-4d31-a495-440161ba5d49)
-    (property "Reference" "D?" (id 0) (at 33.782 137.5953 90)
+    (property "Reference" "D5" (id 0) (at 33.782 137.5953 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "" (id 1) (at 33.782 140.1322 90)
@@ -3828,7 +3828,7 @@
   (symbol (lib_id "Device:Polyfuse") (at 25.4 132.08 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid b963ab2b-e2a6-43d1-86d1-7b2176c8f88b)
-    (property "Reference" "F?" (id 0) (at 25.4 126.9832 90))
+    (property "Reference" "F1" (id 0) (at 25.4 126.9832 90))
     (property "Value" "" (id 1) (at 25.4 129.5201 90))
     (property "Footprint" "" (id 2) (at 20.32 133.35 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
@@ -4352,10 +4352,10 @@
       (reference "D4") (unit 1) (value "G") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
     (path "/089dbcda-11ac-4d31-a495-440161ba5d49"
-      (reference "D?") (unit 1) (value "D_Zener") (footprint "Diode_SMD:D_SMB_Handsoldering")
+      (reference "D5") (unit 1) (value "D_Zener") (footprint "Diode_SMD:D_SMB_Handsoldering")
     )
     (path "/b963ab2b-e2a6-43d1-86d1-7b2176c8f88b"
-      (reference "F?") (unit 1) (value "Polyfuse") (footprint "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder")
+      (reference "F1") (unit 1) (value "Polyfuse") (footprint "Fuse:Fuse_2920_7451Metric_Pad2.10x5.45mm_HandSolder")
     )
     (path "/9d8a2d54-0360-4e43-a3a9-429b299a601f"
       (reference "J1") (unit 1) (value "RJ45_Shielded_Labelled") (footprint "Connector_RJ:RJ45_Amphenol_RJHSE5380")
