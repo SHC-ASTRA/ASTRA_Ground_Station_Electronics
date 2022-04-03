@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "GS_Library")(type "KiCad")(uri "${KIPRJMOD}/GS_Library.pretty")(options "")(descr ""))
+  (lib (name "ASTRA_Footprints")(type "KiCad")(uri "${KIPRJMOD}/ASTRA_Footprints.pretty")(options "")(descr ""))
 )
