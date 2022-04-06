@@ -3988,7 +3988,7 @@
   (symbol (lib_id "power:GND") (at 248.92 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d301b315-959a-46e3-9750-4508835fd0e1)
-    (property "Reference" "#PWR?" (id 0) (at 248.92 95.25 0)
+    (property "Reference" "#PWR042" (id 0) (at 248.92 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 248.92 93.3434 0))
@@ -4054,7 +4054,7 @@
   (symbol (lib_id "ASTRA_Library:QWIIC_Generic_Conn") (at 265.43 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid dd409643-2ad0-46ca-8edc-7618874343d8)
-    (property "Reference" "J?" (id 0) (at 269.875 82.9853 0)
+    (property "Reference" "J3" (id 0) (at 269.875 82.9853 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "" (id 1) (at 269.875 85.5222 0)
@@ -4237,7 +4237,7 @@
   (symbol (lib_id "power:+3.3V") (at 248.92 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid e92f955a-c3b1-473b-96e0-f304b4f9b568)
-    (property "Reference" "#PWR?" (id 0) (at 248.92 87.63 0)
+    (property "Reference" "#PWR041" (id 0) (at 248.92 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3V" (id 1) (at 248.92 80.2442 0))
@@ -4423,11 +4423,11 @@
     (path "/cee0a767-339f-4719-9ca5-c95bd6d91991"
       (reference "#PWR040") (unit 1) (value "GND") (footprint "")
     )
-    (path "/d301b315-959a-46e3-9750-4508835fd0e1"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
     (path "/e92f955a-c3b1-473b-96e0-f304b4f9b568"
-      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+      (reference "#PWR041") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/d301b315-959a-46e3-9750-4508835fd0e1"
+      (reference "#PWR042") (unit 1) (value "GND") (footprint "")
     )
     (path "/9e09a5b2-d433-4c89-b155-f02df3929600"
       (reference "BT1") (unit 1) (value "DNP") (footprint "Connector_AMASS:AMASS_XT30U-M_1x02_P5.0mm_Vertical")
@@ -4487,7 +4487,7 @@
       (reference "J2") (unit 1) (value "ARGB_Header") (footprint "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical")
     )
     (path "/dd409643-2ad0-46ca-8edc-7618874343d8"
-      (reference "J?") (unit 1) (value "QWIIC_Generic_Conn") (footprint "")
+      (reference "J3") (unit 1) (value "QWIIC_Generic_Conn") (footprint "Connector_JST:JST_SH_BM04B-SRSS-TB_1x04-1MP_P1.00mm_Vertical")
     )
     (path "/e4f4697e-5312-4a89-90e5-2b44e8db87d1"
       (reference "L1") (unit 1) (value "L") (footprint "GS_Library:L_Wuerth_HCF-2920")
